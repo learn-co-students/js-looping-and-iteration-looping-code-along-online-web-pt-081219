@@ -13,8 +13,7 @@
 function writeCards(names, event) {
   let thanks = [];
   for (let i = 0; i < names.length; i++) {
-    let message = console.log(`Thank you, ${names[i]}, for the wonderful ${event} gift!`)
-    thanks << message
+    thanks.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`)
   }
   return thanks
 }
